@@ -106,10 +106,54 @@ text-align: left;
   width: 5px;
 }
 
-@media (max-width:780px) {
+
+.giftmain{
+  height: 587px;
+  width: 1512px;
+  margin: auto;
+  border:1px red;
+  display: flex; 
+  flex-wrap: wrap;
+  margin-top: -8px;
+  /* border-top:2px solid black; */
+  border-bottom:2px solid black;
+  
+}
+
+.textgift{
+  width: 755px;
+  border-right:2px solid black ;
+  
+  
+}
+
+.gifth1{
+  /* //styleName: H1; */
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: left;
+/* padding: 20px; */
+
+}
+
+@media (max-width:880px) {
   .header{
     height: 100%;
     width: 100%;
     margin: auto;
   }
+
+  .textgift{
+  width: 100%;
+  
 }
+
+}
+
+
+
+
+

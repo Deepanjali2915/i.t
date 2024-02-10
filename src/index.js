@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './header';
 import Textproduct from './textproduct';
+import Featureproduct from './featureproduct';
+import Gift from './gift';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +13,8 @@ root.render(
   <React.StrictMode>
     <Header />
     <Textproduct/>
+    <Gift/>
+    <Featureproduct/>
   </React.StrictMode>
 );
 
