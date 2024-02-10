@@ -195,6 +195,135 @@ gap: 24px;
 
 }
 
+.personinfo{
+  width:1512px;
+height: 677px;
+margin: auto;
+display: flex;
+  flex-direction: row;
+
+
+}
+
+.person{
+  width:900px;
+height:507px;
+top: 85px;
+left: 178px;
+gap: 38px;
+padding: 110px;
+
+}
+
+.persontext{
+  border-bottom:2px solid black ;
+
+}
+
+.pic{
+  width: 97px;
+height: 97px;
+border-radius: 63px;
+background-color: grey;
+/* border: 2px solid black; */
+
+}
+
+.personpic{
+  /* //styleName: H4; */
+font-family: Montserrat;
+font-size: 23px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0em;
+margin-top: 50px;
+text-align: left;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.name{
+  margin-top:20px;
+  margin-left: 30px;
+}
+
+.personimage{
+  width: 451px;
+height: 451px;
+top: 113px;
+left: 1001px;
+border-radius: 12px;
+/* border: 4px solid black; */
+margin-top: 100px;
+background-color: gray;
+
+}
+
+.buyget{
+  width: 1512px;
+  margin: auto;
+height: 756px;
+/* top: 2308px; */
+border: 2px solid black;
+display: flex;
+  flex-direction: row;
+
+
+}
+
+.buygift{
+  width: 758px;
+height: 756px;
+/* top: 2308px */
+/* border: 2px */
+
+  border: 1px solid black;
+}
+
+.buyshirt{
+  width: 395px;
+  height: 379px;
+  /* top: 2308px */
+  /* left: 56px; */
+  text-align: center;
+
+  border: 2px solid black;
+  
+}
+
+.getshirt{
+  width:263px;
+height: 245px;
+margin-top: 60px;
+margin-left: 50px;
+left: 51px;
+gap: 24px;
+list-style: none;
+}
+
+.addshirt{
+  width: 263px;
+height: 64px;
+margin-top: 330px;
+margin-left: 45px;
+/* border: 1px solid red; */
+padding: 10px, 49.35px, 10px, 49.35px;
+border-radius: 50px;
+border: 2px;
+gap: 10px;
+}
+
+.top{
+  width: 333px;
+height: 458px;
+
+}
+.topimage{
+  width: 333px;
+height: 250px;
+
+}
 @media (max-width:880px) {
   .header{
     height: 100%;

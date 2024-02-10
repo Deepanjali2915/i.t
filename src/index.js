@@ -6,6 +6,9 @@ import Header from './header';
 import Textproduct from './textproduct';
 import Featureproduct from './featureproduct';
 import Gift from './gift';
+import Person from './person';
+import Byuget from './byuget';
+import Top10 from './top10';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +18,11 @@ root.render(
     <Textproduct/>
     <Gift/>
     <Featureproduct/>
+    <Person/>
+    <Byuget/>
+    <Top10/>
   </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function

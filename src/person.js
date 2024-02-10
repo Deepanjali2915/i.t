@@ -1,19 +1,26 @@
 import './App.css';
-const Textproduct = () => {
+const Person = () => {
     return (
-        <nav class="navbar navbar-expand-lg  ">
-            <div class="container-fluid textproduct">
-                <a class="navbar-brand " href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand" href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand d-none d-sm-block" href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand d-none d-sm-block" href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand d-none d-sm-block" href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand d-none d-sm-block" href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand d-none d-sm-block" href="#"><span>.</span> TEXT PRODUCT</a>
-                <a class="navbar-brand d-none d-sm-block" href="#"><span>.</span> TEXT PRODUCT</a>
-
+        <>
+            <div className='personinfo'>
+                <div className='person'>
+                    <div className='persontext' >
+                        <img src="image 4.png" alt="Image 1" />
+                        <h1>“I’ve found the best presents for kids with TagCompany! Here you will find a range of unique gift ideas, suitable for kids of all interests”</h1>
+                    </div>
+                    <div className='personpic' >
+                        <div className='pic'> </div>
+                        <div className='name'>Person name
+                        <p>Housewife</p>
+                        </div>
+                                
+                    </div>
+                </div>
+                <div className='personimage' ></div>
             </div>
-        </nav>
+
+
+        </>
     )
 };
-export default Textproduct;
+export default Person;
