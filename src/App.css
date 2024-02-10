@@ -139,6 +139,62 @@ text-align: left;
 
 }
 
+.feature{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+/* align-items: ; */
+gap:50px;
+/* align-content: center;                                                                                                  */
+
+  
+}
+.mainfeature{
+  height: 662px;
+  width: 1512px;
+  margin: auto;
+  margin-top: 50px;;
+  /* border: 1px solid black; */
+
+}
+
+.festuretext{
+  width: 1392px;
+height: 49px;
+/* border: 1px solid blue; */
+/* //styleName: H2; */
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+
+.featureinfo{
+  width:454px;
+height:557px;
+margin-top:20px;
+border: 1px solid black ;
+
+}
+.featurimage{
+  border: 1px solid black;
+  width: 451px;
+}
+.plan-features{
+  width:243px;
+height:179px;
+/* border:1px solid black; */
+top: 16px;
+margin-right:150px;
+list-style: none;
+gap: 24px;
+
+}
+
 @media (max-width:880px) {
   .header{
     height: 100%;
