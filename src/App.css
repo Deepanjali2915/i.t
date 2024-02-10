@@ -263,7 +263,7 @@ background-color: gray;
 .buyget{
   width: 1512px;
   margin: auto;
-height: 756px;
+height: 758px;
 /* top: 2308px; */
 border: 2px solid black;
 display: flex;
@@ -283,7 +283,7 @@ height: 756px;
 
 .buyshirt{
   width: 395px;
-  height: 379px;
+  height: 377px;
   /* top: 2308px */
   /* left: 56px; */
   text-align: center;
@@ -314,7 +314,13 @@ border: 2px;
 gap: 10px;
 }
 
+
 .top{
+  display: flex;
+  flex-direction: row;
+
+}
+.top10{
   width: 333px;
 height: 458px;
 
