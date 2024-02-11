@@ -154,7 +154,9 @@ gap:50px;
   height: 662px;
   width: 1512px;
   margin: auto;
-  margin-top: 50px;;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap:nowrap;
   /* border: 1px solid black; */
 
 }
@@ -178,11 +180,14 @@ text-align: left;
 height:557px;
 margin-top:20px;
 border: 1px solid black ;
+display: flex;
+flex-wrap: wrap;
 
 }
 .featurimage{
   border: 1px solid black;
   width: 451px;
+  
 }
 .plan-features{
   width:243px;
@@ -191,6 +196,7 @@ height:179px;
 top: 16px;
 margin-right:150px;
 list-style: none;
+
 gap: 24px;
 
 }
@@ -330,6 +336,37 @@ height: 458px;
 height: 250px;
 
 }
+.aniverderymain{
+  width:1512px;
+  height:421px;
+  margin: auto;
+  margin-top: -160px;
+  /* left: 60px */
+  /* gap: 56px */
+  
+}
+
+.anivertext{
+  text-align: center;
+line-height: 28px;
+
+}
+
+
+.anigift{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.anigiftss{
+  width:215px;
+height:282px;
+
+
+  /* gap:10px; */
+
+}
+
 @media (max-width:880px) {
   .header{
     height: 100%;
@@ -338,12 +375,60 @@ height: 250px;
   }
 
   .textgift{
-  width: 100%;
-  
+  width: 100%; 
+  }
+  .mainfeature{
+    width: 100%;
+    margin: auto;
+  }
+  .giftmain{
+    height: 100%;
+    /* width: 100%; */
+    border: none;
+  }
+  .mainfeature{
+    height: 100%;
+    width: 100%;
+    /* margin-right: 50px; */
+  }
+  .feature{
+    width: 100%;
+    margin-top:70px;
+    margin-right:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+  }
+}
+@media (max-width: 767px) {
+  .anigiftss {
+      margin-bottom: 20px; /* Adjust as needed */
+  }
 }
 
+@media (min-width: 768px) {
+  /* Adjust column layout for medium screens */
+  .col-md-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+  }
 }
 
+@media (min-width: 992px) {
+  /* Adjust column layout for large screens */
+  .col-md-4 {
+      flex: 0 0 25%;
+      max-width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Adjust column layout for extra large screens */
+  .col-md-4 {
+      flex: 0 0 20%;
+      max-width: 20%;
+  }
+}
 
 
 

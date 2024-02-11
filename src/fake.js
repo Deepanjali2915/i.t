@@ -1,39 +1,87 @@
-{/* <span>.</span> TEXT PRODUCT */}
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                        <img src="image 2.png" class="d-block w-100" alt="image"/>
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                        </div>
-                        <div class="carousel-item">
-                        <img src="image 2.png" class="d-block w-100" alt="image"/>
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="image 2.png" class="d-block w-100" alt="image"/>
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+// import './App.css';
+
+// const Anniversary = () => {
+//     return (
+//         <>
+//             <div className='aniverderymain'>
+//                 <div className='anivertext'>
+//                     <h1>Need Some Inspiration?</h1>
+//                     <p>Check some of our categories and we guarantee you will find the perfect gift.</p>
+//                 </div>
+//                 <div className='container'>
+//                     <div className='row'>
+//                         <div className='col-md-4'>
+//                             <div className='anigiftss'>
+//                                 <div className='aniimage'><img src="image 7.png" alt="Image 1" /></div>
+//                                 <div>
+//                                     <ul className="plan-features">
+//                                         <li>Anniversary Gifts</li>
+//                                         <li><button>Read more</button></li>
+//                                     </ul>
+//                                 </div>
+//                             </div>
+//                         </div>
+//                         {/* Repeat the above div for each item */}
+//                     </div>
+//                 </div>
+//             </div>
+//         </>
+//     );
+// };
+
+// export default Anniversary;
+
+
+
+
+// .aniverderymain {
+//     /* Your existing styles */
+// }
+
+// .anigiftss {
+//     /* Your existing styles */
+// }
+
+// .aniimage img {
+//     max-width: 100%;
+//     height: auto;
+// }
+
+// .anivertext {
+//     /* Your existing styles */
+// }
+
+// .plan-features {
+//     /* Your existing styles */
+// }
+
+// /* Media Queries */
+// @media (max-width: 767px) {
+//     .anigiftss {
+//         margin-bottom: 20px; /* Adjust as needed */
+//     }
+// }
+
+// @media (min-width: 768px) {
+//     /* Adjust column layout for medium screens */
+//     .col-md-4 {
+//         flex: 0 0 33.333333%;
+//         max-width: 33.333333%;
+//     }
+// }
+
+// @media (min-width: 992px) {
+//     /* Adjust column layout for large screens */
+//     .col-md-4 {
+//         flex: 0 0 25%;
+//         max-width: 25%;
+//     }
+// }
+
+// @media (min-width: 1200px) {
+//     /* Adjust column layout for extra large screens */
+//     .col-md-4 {
+//         flex: 0 0 20%;
+//         max-width: 20%;
+//     }
+// }

@@ -9,6 +9,8 @@ import Gift from './gift';
 import Person from './person';
 import Byuget from './byuget';
 import Top10 from './top10';
+import Anniversary from './anniversary';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -21,6 +23,7 @@ root.render(
     <Person/>
     <Byuget/>
     <Top10/>
+    <Anniversary/>
   </React.StrictMode>
 
 );
