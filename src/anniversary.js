@@ -20,7 +20,6 @@ const Anniversary = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* Repeat the above div for each item */}
                         <div className='col-md-4'>
                             <div className='anigiftss'>
                                 <div className='aniimage'><img src="image 7.png" alt="Image 1" /></div>
@@ -32,32 +31,6 @@ const Anniversary = () => {
                                 </div>
                             </div>
                         </div>
-                        
-                        <div className='col-md-4'>
-                            <div className='anigiftss'>
-                                <div className='aniimage'><img src="image 7.png" alt="Image 1" /></div>
-                                <div>
-                                    <ul className="plan-features">
-                                        <li>Anniversary Gifts</li>
-                                        <li><button>Read more</button></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div className='col-md-4'>
-                            <div className='anigiftss'>
-                                <div className='aniimage'><img src="image 7.png" alt="Image 1" /></div>
-                                <div>
-                                    <ul className="plan-features">
-                                        <li>Anniversary Gifts</li>
-                                        <li><button>Read more</button></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
 
                         <div className='col-md-4'>
                             <div className='anigiftss'>
@@ -70,7 +43,31 @@ const Anniversary = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
+
+                        <div className='col-md-4'>
+                            <div className='anigiftss'>
+                                <div className='aniimage'><img src="image 7.png" alt="Image 1" /></div>
+                                <div>
+                                    <ul className="plan-features">
+                                        <li>Anniversary Gifts</li>
+                                        <li><button>Read more</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-md-4'>
+                            <div className='anigiftss'>
+                                <div className='aniimage'><img src="image 7.png" alt="Image 1" /></div>
+                                <div>
+                                    <ul className="plan-features">
+                                        <li>Anniversary Gifts</li>
+                                        <li><button>Read more</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>

@@ -6,7 +6,7 @@ const Gift = () => {
             <div className="col-md-6 textgift"  >
                 <div className='gifth1' >
                     <p>Best Gift ideas for all occasions</p>
-                    <h1>Lorem ipsum dolor sit amet.Lorem ipsum dolor<br/> sit amet.Lorem ipsum dolor sit amet.</h1                >
+                    <h1>Lorem ipsum dolor sit amet.Lorem ipsum dolor<br /> sit amet.Lorem ipsum dolor sit amet.</h1>
                 </div>
                 <div><button> button</button></div>
                 <div></div>
@@ -21,25 +21,25 @@ const Gift = () => {
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="image 2.png" class="d-block w-100" alt="image" />
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
+                            <img src="image 2.png" class="d-block w-100" alt="image" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                        <img src="image 2.png" class="d-block w-100" alt="image" />
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
+                            <img src="image 2.png" class="d-block w-100" alt="image" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
                         </div>
                         <div class="carousel-item">
-                        <img src="image 2.png" class="d-block w-100" alt="image" />
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
+                            <img src="image 2.png" class="d-block w-100" alt="image" />
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

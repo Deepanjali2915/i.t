@@ -10,7 +10,7 @@ import Person from './person';
 import Byuget from './byuget';
 import Top10 from './top10';
 import Anniversary from './anniversary';
-
+import Happy from './happy';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +24,7 @@ root.render(
     <Byuget/>
     <Top10/>
     <Anniversary/>
+    <Happy/>
   </React.StrictMode>
 
 );

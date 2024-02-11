@@ -4,17 +4,17 @@ const Byuget = () => {
         <>
             <div className='buyget'>
                 <div className='buygift'><img src="image 5.png" alt="Image 1" />
-</div>
+                </div>
                 <div>
                     <div className='buyshirt'><img src="image 6.png" alt="Image 1" />
-</div>
+                    </div>
                     <div className='buyshirt'><img src="image 6.png" alt="Image 1" />
-</div>
+                    </div>
                 </div>
 
                 <div>
-                    <div >
-                    <ul className='getshirt'>
+                    <div>
+                        <ul className='getshirt'>
                             <li>.MEALBOXES</li>
                             <li>Pokemon inspired</li>
                             <li>Description of the product of the product Description of the product of the product</li><br />

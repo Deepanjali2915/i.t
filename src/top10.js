@@ -58,7 +58,7 @@ const Top10 = () => {
                                 <li><button>Add to cart</button></li>
                             </ul> </div>
                         </div>
-                        
+
                     </div>
 
                 </div>

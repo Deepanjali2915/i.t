@@ -7,6 +7,7 @@ import Featureproduct from './teatureproduct';
 import Person from './person';
 import Byuget from './Byuget ';
 import Top10 from './top10';
+import Happy from './happy';
 test('renders learn react link', () => {
   render(<Header />);
   render(<Textproduct />);
@@ -15,6 +16,7 @@ test('renders learn react link', () => {
   render(<Person />);
   render(<Byuget />);
   render(<Top10 />);
+  render(<Happy />);
   const linkElement = screen.getByText(/learn react/);
   expect(linkElement).toBeInTheDocument();
 });

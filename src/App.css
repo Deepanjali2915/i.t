@@ -1,56 +1,57 @@
-
-.header{
+.header {
   height: 145px;
   width: 1512px;
   margin: auto;
 }
-.text{
+
+.text {
   font-family: Montserrat;
-font-size: 48px;
-font-weight: 700;
-line-height: 59px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
-span{
+
+span {
   font-family: Montserrat;
-font-size: 48px;
-font-weight: 250;
-line-height: 59px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 48px;
+  font-weight: 250;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
 
-.content{
-  width:438px;
-height: 28px;
-top: 58px;
-left: 277px;
-gap: 44px;
-/* styleName: H4; */
-font-family: Montserrat;
-font-size: 23px;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
+.content {
+  width: 438px;
+  height: 28px;
+  top: 58px;
+  left: 277px;
+  gap: 44px;
+  /* styleName: H4; */
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.mainsearch{
+.mainsearch {
   margin-right: 300px;
 }
 
-.search{
+.search {
   width: 451px;
-height: 48px;
-top: 48px;
-left: 766px;
-padding: 8px, 15px, 8px, 23px;
-border-radius: 82px;
-border:1px solid black;
-/* margin-right:50px; */
+  height: 48px;
+  top: 48px;
+  left: 766px;
+  padding: 8px, 15px, 8px, 23px;
+  border-radius: 82px;
+  border: 1px solid black;
+  /* margin-right:50px; */
 }
 
 .image-container.imagecontent {
@@ -70,224 +71,228 @@ border:1px solid black;
   object-fit: contain;
 }
 
-.searchimage{
-  margin-left:-60px;
+.searchimage {
+  margin-left: -60px;
   border: none;
 }
 
-.textproduct{
+.textproduct {
   width: 1512px;
   height: 54px;
-  margin:auto;
+  margin: auto;
   top: 205px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
 
-.product{
+.product {
   /* width: 145px; */
-height: 20px;
-/* //styleName: Normal Bold; */
-font-family: Montserrat;
-font-size: 15px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
+  height: 20px;
+  /* //styleName: Normal Bold; */
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 
 }
 
-.product .span{
+.product .span {
   height: 5px;
   width: 5px;
 }
 
 
-.giftmain{
+.giftmain {
   height: 587px;
   width: 1512px;
   margin: auto;
-  border:1px red;
-  display: flex; 
+  border: 1px red;
+  display: flex;
   flex-wrap: wrap;
   margin-top: -8px;
   /* border-top:2px solid black; */
-  border-bottom:2px solid black;
-  
+  border-bottom: 2px solid black;
+
 }
 
-.textgift{
+.textgift {
   width: 755px;
-  border-right:2px solid black ;
-  
-  
+  border-right: 2px solid black;
+
+
 }
 
-.gifth1{
+.gifth1 {
   /* //styleName: H1; */
-font-family: Montserrat;
-font-size: 50px;
-font-weight: 700;
-line-height: 61px;
-letter-spacing: 0em;
-text-align: left;
-/* padding: 20px; */
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* padding: 20px; */
 
 }
 
-.feature{
+.feature {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
-/* align-items: ; */
-gap:50px;
-/* align-content: center;                                                                                                  */
+  /* justify-content: left; */
+  /* align-items: ; */
+  gap: 50px;
+  /* align-content: center;                                                                                                  */
 
-  
+
 }
-.mainfeature{
+
+.mainfeature {
   height: 662px;
   width: 1512px;
   margin: auto;
   margin-top: 50px;
   display: flex;
-  flex-wrap:nowrap;
+  flex-wrap: wrap;
   /* border: 1px solid black; */
 
 }
 
-.festuretext{
+.festuretext {
   width: 1392px;
-height: 49px;
-/* border: 1px solid blue; */
-/* //styleName: H2; */
-font-family: Montserrat;
-font-size: 40px;
-font-weight: 600;
-line-height: 49px;
-letter-spacing: 0em;
-text-align: left;
+  height: 49px;
+  /* border: 1px solid blue; */
+  /* //styleName: H2; */
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 
-.featureinfo{
-  width:454px;
-height:557px;
-margin-top:20px;
-border: 1px solid black ;
-display: flex;
-flex-wrap: wrap;
+.featureinfo {
+  width: 454px;
+  height: 557px;
+  margin-top: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 
 }
-.featurimage{
+
+.featurimage {
   border: 1px solid black;
   width: 451px;
-  
-}
-.plan-features{
-  width:243px;
-height:179px;
-/* border:1px solid black; */
-top: 16px;
-margin-right:150px;
-list-style: none;
-
-gap: 24px;
 
 }
 
-.personinfo{
-  width:1512px;
-height: 677px;
-margin: auto;
-display: flex;
+.plan-features {
+  width: 243px;
+  height: 179px;
+  /* border:1px solid black; */
+  /* top: 16px; */
+  margin-right: 150px;
+  list-style: none;
+
+  gap: 24px;
+
+}
+
+.personinfo {
+  width: 1512px;
+  height: 677px;
+  margin: auto;
+  display: flex;
   flex-direction: row;
+}
+
+.person {
+  width: 900px;
+  height: 507px;
+  padding: 110px;
+  /* display: flex;
+  flex-direction: row; */
 
 
 }
 
-.person{
-  width:900px;
-height:507px;
-top: 85px;
-left: 178px;
-gap: 38px;
-padding: 110px;
+.persontext {
+  border-bottom: 2px solid black;
 
 }
 
-.persontext{
-  border-bottom:2px solid black ;
-
-}
-
-.pic{
+.pic {
   width: 97px;
-height: 97px;
-border-radius: 63px;
-background-color: grey;
-/* border: 2px solid black; */
+  height: 97px;
+  border-radius: 63px;
+  background-color: grey;
+  /* border: 2px solid black; */
 
 }
 
-.personpic{
+.personpic {
   /* //styleName: H4; */
-font-family: Montserrat;
-font-size: 23px;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0em;
-margin-top: 50px;
-text-align: left;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  margin-top: 50px;
+  text-align: left;
   display: flex;
   flex-direction: row;
 
 }
 
-.name{
-  margin-top:20px;
+.name {
+  margin-top: 20px;
   margin-left: 30px;
 }
 
-.personimage{
+.personimage {
   width: 451px;
-height: 451px;
-top: 113px;
-left: 1001px;
-border-radius: 12px;
-/* border: 4px solid black; */
-margin-top: 100px;
-background-color: gray;
-
-}
-
-.buyget{
-  width: 1512px;
-  margin: auto;
-height: 758px;
-/* top: 2308px; */
-border: 2px solid black;
-display: flex;
+  height: 451px;
+  /* top: 113px; */
+  /* left: 1001px; */
+  border-radius: 12px;
+  /* border: 4px solid black; */
+  margin-top: 100px;
+  background-color: gray;
+  display: flex;
   flex-direction: row;
 
 
 }
 
-.buygift{
+.buyget {
+  width: 1512px;
+  margin: auto;
+  height: 758px;
+  /* top: 2308px; */
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.buygift {
   width: 758px;
-height: 756px;
-/* top: 2308px */
-/* border: 2px */
+  height: 756px;
+  /* top: 2308px */
+  /* border: 2px */
 
   border: 1px solid black;
 }
 
-.buyshirt{
+.buyshirt {
   width: 395px;
   height: 377px;
   /* top: 2308px */
@@ -295,141 +300,151 @@ height: 756px;
   text-align: center;
 
   border: 2px solid black;
-  
+
 }
 
-.getshirt{
-  width:263px;
-height: 245px;
-margin-top: 60px;
-margin-left: 50px;
-left: 51px;
-gap: 24px;
-list-style: none;
-}
-
-.addshirt{
+.getshirt {
   width: 263px;
-height: 64px;
-margin-top: 330px;
-margin-left: 45px;
-/* border: 1px solid red; */
-padding: 10px, 49.35px, 10px, 49.35px;
-border-radius: 50px;
-border: 2px;
-gap: 10px;
+  height: 245px;
+  margin-top: 60px;
+  margin-left: 50px;
+  left: 51px;
+  gap: 24px;
+  list-style: none;
+}
+
+.addshirt {
+  width: 263px;
+  height: 64px;
+  margin-top: 330px;
+  margin-left: 45px;
+  /* border: 1px solid red; */
+  padding: 10px, 49.35px, 10px, 49.35px;
+  border-radius: 50px;
+  border: 2px;
+  gap: 10px;
 }
 
 
-.top{
+.top {
   display: flex;
   flex-direction: row;
 
 }
-.top10{
+
+.top10 {
   width: 333px;
-height: 458px;
+  height: 458px;
 
 }
-.topimage{
+
+.topimage {
   width: 333px;
-height: 250px;
+  height: 250px;
 
 }
-.aniverderymain{
-  width:1512px;
-  height:421px;
+
+.aniverderymain {
+  width: 1512px;
+  height: 421px;
   margin: auto;
   margin-top: -160px;
   /* left: 60px */
   /* gap: 56px */
-  
+
 }
 
-.anivertext{
+.anivertext {
   text-align: center;
-line-height: 28px;
+  line-height: 28px;
 
 }
 
 
-.anigift{
+.anigift {
   display: flex;
   flex-direction: row;
   gap: 12px;
 }
-.anigiftss{
-  width:215px;
-height:282px;
+
+.anigiftss {
+  width: 215px;
+  height: 282px;
 
 
   /* gap:10px; */
 
 }
 
+.happyinfo {
+  width: 1275px;
+  height: 693px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* top: 4382px;
+left: 178px; */
+  /* gap: 139px; */
+
+}
+
+.rakhiimage {
+  width: 568px;
+  height: 693px;
+
+}
+
+
 @media (max-width:880px) {
-  .header{
+  .header {
     height: 100%;
     width: 100%;
     margin: auto;
   }
 
-  .textgift{
-  width: 100%; 
+  .textgift {
+    width: 100%;
   }
-  .mainfeature{
+
+  .mainfeature {
     width: 100%;
     margin: auto;
   }
-  .giftmain{
+
+  .giftmain {
     height: 100%;
     /* width: 100%; */
     border: none;
   }
-  .mainfeature{
-    height: 100%;
-    width: 100%;
-    /* margin-right: 50px; */
-  }
-  .feature{
-    width: 100%;
-    margin-top:70px;
-    margin-right:500px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:flex-start;
-  }
+
 }
+
 @media (max-width: 767px) {
   .anigiftss {
-      margin-bottom: 20px; /* Adjust as needed */
+    margin-bottom: 20px;
   }
 }
 
 @media (min-width: 768px) {
-  /* Adjust column layout for medium screens */
+
   .col-md-4 {
-      flex: 0 0 33.333333%;
-      max-width: 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
   }
 }
 
 @media (min-width: 992px) {
-  /* Adjust column layout for large screens */
+
   .col-md-4 {
-      flex: 0 0 25%;
-      max-width: 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
 
 @media (min-width: 1200px) {
-  /* Adjust column layout for extra large screens */
   .col-md-4 {
-      flex: 0 0 20%;
-      max-width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
 }
-
-
-
-
